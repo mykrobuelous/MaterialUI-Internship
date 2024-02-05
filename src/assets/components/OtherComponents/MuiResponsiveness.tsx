@@ -2,7 +2,7 @@ import { Box } from "@mui/material";
 import { styled } from "@mui/material";
 
 const StyledBox = styled(Box)(({ theme }) => {
-	return { height: "250px", width: "250px", backgroundColor: theme.palette.neutral?.darker };
+	return { height: "250px", width: "250px", backgroundColor: theme.palette.neutral?.main };
 });
 
 const MuiResponsiveness = () => {
